@@ -1,9 +1,9 @@
-let money = 50;
+// Type Conversions
+let money = "50.245";
 
-// Number to string
+// String to decimal
+money = parseFloat(money);
 
-// money = money.toString();
-money = String(money);
 
 console.log(money);
 console.log(typeof money);
