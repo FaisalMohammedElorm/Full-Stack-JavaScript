@@ -1,11 +1,20 @@
-let password;
-if(password === 8){
-  console.log("Welcome");
-} else if(password <= 8){
-  console.log("Password is short");
-} else if(password >= 8){
-  console.log("Too Long Password");
-  console.log("Password should be 8 characters");
-} else {
-  console.log("Please provide a password");
+// Switch Statements
+let x = 0;
+let bulb;
+
+switch(x) {
+  case 0:
+    bulb = "Off";
+    console.log(bulb);
+    break;
+  case 1: 
+    bulb = "On";
+    console.log(bulb);
+    break;
+  default:
+    bulb = "No value found";
+    console.log(bulb);
 }
+
+
+
