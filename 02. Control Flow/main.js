@@ -1,6 +1,7 @@
-let i = 10;
+// Do While 
+let i = 1;
 
-while(i<=100){
-  console.log("Mohammed Faisal", i);
-  i++; // For increment
-}
+do {
+  console.log("Hello World", i);
+  i++;
+} while (i<=5); 
