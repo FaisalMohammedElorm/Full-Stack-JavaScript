@@ -1,4 +1,6 @@
+let i = 1;
 
-for(i=0; i<=1000; i++){
-  console.log("Faisal", i);
+while (i <= 5){
+  console.log("Hello World", i)
+  i++; // Increment the counter
 }
