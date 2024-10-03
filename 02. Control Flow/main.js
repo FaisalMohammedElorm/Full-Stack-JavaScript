@@ -1,20 +1,25 @@
-// Switch Statements
-let x = 0;
-let bulb;
+let day = "Monday";
 
-switch(x) {
-  case 0:
-    bulb = "Off";
-    console.log(bulb);
+switch(day){
+  case "Monday": 
+    console.log("Today is Monday");
     break;
-  case 1: 
-    bulb = "On";
-    console.log(bulb);
+  case "Tuesday":
+    console.log("Today is Tuesday");
     break;
-  default:
-    bulb = "No value found";
-    console.log(bulb);
+  case "Wednesday":
+    console.log("Today is Wednesday");
+    break;
+  case "Thursday":
+    console.log("Today is Thursday");
+    break; 
+  case "Friday":
+    console.log("Today is Friday");
+    break;
+  case "Saturday":
+    console.log("Today is Saturday");
+    break;
+  case "Sunday":
+    console.log("Today is Sunday");
+    break;
 }
-
-
-
