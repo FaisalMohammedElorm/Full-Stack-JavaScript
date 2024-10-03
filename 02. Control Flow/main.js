@@ -1,6 +1,6 @@
-let i = 1;
+let i = 10;
 
-while (i <= 5){
-  console.log("Hello World", i)
-  i++; // Increment the counter
+while(i<=100){
+  console.log("Mohammed Faisal", i);
+  i++; // For increment
 }
